@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 2069px;
+    background: #F7F6F4;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.main{
+    width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 165px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image1{
+    width: 178px;
+    height: 22px;
+    margin-top: 42px;
+
+}
+nav>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 40px;
+    margin-top: 42px;
+    margin-left: 300px;
+}
+nav>ul>li{
+    position: relative;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.menu-small{
+    height: 107px;
+    width: 160px;
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 15px 41px 23px 20px;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.70);
+}
+.menu-small a{
+    text-decoration: none;
+    width: 76px;
+    height: 23px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+nav>ul>li:hover .menu-small{
+    display: block;
+}
+.section-1{
+    width: 1110px;
+    height: 505px;
+    display: flex;
+    background: #F1DDC9;
+    margin-top: 160px;
+}
+.way{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 60px;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+}
+.small-text{
+    width: 529px;
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    margin-bottom: 70px;
+}
+.button1{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    border: none;
+}
+.image2{
+    width: 325px;
+    height: 467px;
+    margin-top: 10px;
+}
+.content-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.align{
+    margin-bottom: 30px;
+}
+#deal{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-top: 70px;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.choice{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.top{
+    position: absolute;
+    top: -20px;
+    z-index: 1;
+}
+.choice p{
+    margin-top: 200px;
+    margin-right: 115px;
+    z-index: 2;
+}
+#news{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-top: 70px;
+}
+.last{
+    display: flex;
+    margin-top: 50px;
+}
+.last-class{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+#travel{
+    width: 163px;
+    color: #777;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.destination{
+    width: 350px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
