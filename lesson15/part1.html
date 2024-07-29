@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw15</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+
+        }
+        .box-1{
+            width: 100vw;
+            height: 40vh;
+            background-color: #4B4864;
+            margin: 10px;
+        }
+        .container{
+            display: flex;
+            margin: 10px;
+            gap: 10px;
+        }
+        .box-2{
+            width: 60vw;
+            height: 65vh;
+            background-color: #80d548;
+        }
+        .box-3{
+            width: 40vw;
+            height: 65vh;
+            background-color: #5cd17d;
+
+        }
+        @media screen and (max-width: 480px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .box-2 {
+                width: 100vw;
+                height: 80vh;
+                background-color: #80d548;
+            }
+
+            .box-3 {
+                width: 100vw;
+                height: 20vh;
+                background-color: #5cd17d;
+            }
+            .box-1{
+                width: 100vw;
+                height: 20vh;
+                background-color: #4B4864;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1"></div>
+    <div class="container">
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+    </div>
+</body>
+</html>
